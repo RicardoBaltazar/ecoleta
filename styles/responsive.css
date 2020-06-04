@@ -6,16 +6,23 @@
         align-items: center;
         text-align: center;
     }
-
+    
     #page-home header a {
         position: absolute;
         bottom: -15px;
-
+        
         left: 50%;
         transform: translateX(-50%);
     }
-
+    
     #page-home main {
         align-items: center;
+    }
+}
+
+
+@media (min-width: 1700){
+    #page-home {
+        background-position-x: 40vw;
     }
 }

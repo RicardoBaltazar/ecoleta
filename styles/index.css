@@ -6,6 +6,9 @@
   * {
     margin: 0;
     padding: 0;
+    /*referencia de tamanho pela caixão e não pelo conteudo*/
+    box-sizing: border-box;
+
   }
   
   html {
