@@ -1,0 +1,9 @@
+{
+  "name": "ecoleta",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },  
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
